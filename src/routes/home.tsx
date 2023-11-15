@@ -1,5 +1,12 @@
+import PostTweetForm from '../component/post-tweet-form';
+import TimeLine from '../component/timeline';
+
 export default function Home(){
+
     return(
-        <p>HOME</p>
+        <div className='homeWrap'>
+            <PostTweetForm/>
+            <TimeLine/>
+        </div>
     )
 }
